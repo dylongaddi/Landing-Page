@@ -1,0 +1,13 @@
+.first {
+    background-color: #1f2937;
+}
+
+.Header {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
