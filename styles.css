@@ -1,8 +1,24 @@
+@font-face {
+    font-family: "Hero";
+    src: url(./Fonts/OTF/Hero-Regular.otf);
+}
+
+@font-face {
+    font-family: "Hero-Light";
+    src: url(./Fonts/OTF/Hero-Light.otf)
+}
+
+* {
+    font-family: Hero, 'Times New Roman', Times, serif;
+}
+
+
 .first {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
     color: white;
+    height: 500px;
     
 }
 
@@ -14,10 +30,19 @@
 
 .left {
     margin-left: 30px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerone {
+    font-size: 48px;
+    color: #f9faf8;
 }
 
 .right {
     margin-right: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
@@ -33,10 +58,10 @@ ul {
 }
 
 .firsttext {
-    width: 300px;
+    width: 600px;
 }
 
-button {
+.firstbutton {
     background-color: #3882f6;
     color: white;
     border: none;
@@ -44,6 +69,84 @@ button {
     border-radius: 10px;
 }
 
-img {
-    width: 800px;
+.firstimage {
+    width: 500px;
+
+}
+
+.second {
+    height: 400px;
+}
+
+.headertwo {
+   text-align: center;
+}
+
+.shirts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.shirts img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 24px;
+}
+
+.third {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+q {
+    font-size: 36px;
+    font-style: italic;
+    font-family: Hero-Light;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.fourth {
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 0 1000px;
+    padding: 40px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.leftbox {
+    line-height: 0px;
+}
+
+.secondbutton {
+    background-color: #3882f6;
+    color: white;
+    border: solid;
+    padding: 8px 26px;
+    border-radius: 10px;
 }
